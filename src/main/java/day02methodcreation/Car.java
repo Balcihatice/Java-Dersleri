@@ -34,7 +34,11 @@ public class Car {
 
         //  Hadi diğer metodcreation object ini kullanalım
         MethodCreation obj = new MethodCreation();
+
         System.out.println(obj.toplamaYap(3, 5)); // 8.0
+        System.out.println(obj.carpmaYap(2, 4,6));
+
+
     }
 
     // aktif özellik yapalım: metod demek
@@ -45,6 +49,7 @@ public class Car {
     }
 
     public void dur(){
+
         System.out.println("Honda guvenli durur...");
     }
 

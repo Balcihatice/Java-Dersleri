@@ -40,4 +40,5 @@ public class Scanner02 {
         System.out.println(soysimIlkHarfi);
 
     }
+
 }

@@ -8,7 +8,7 @@ public class CourseRunner {
 //        math.liveSessions();
 //        math.practise();
 //
-        Math m = new Math(5); // Constructor2
+        Math math = new Math(6); // Constructor2
 
 
     }

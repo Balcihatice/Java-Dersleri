@@ -67,9 +67,11 @@ public class Variables01 {
 
              Non primitivler java taraınfandan da oluşturulmuştur biz de oluşturabiliriz
              non primitvler sayılamayacak kadar çoktur
-             ör:class oluşturmak non primitive data oluşturmaktır
+             ör:class oluşturmak non primitive data oluşturmaktır.
+
            3) Primitive data type isimlendirilirken küçük harflerle başlar  (char,bloolean,long)
             Non primitive data typr isimleri büyük harfle başlar (String...)
+
             4) Primitiv data type lar memory de farklı büyüklükte yerler kullanırlar
             ama non primitivlerin hepsi memory de aynı büyüklükte yer kullanırlar
 

@@ -10,11 +10,11 @@ public class PassByValue01 {
 
         // Bazi isleri yaparken orijinal degeri korumaliyiz
         // Java variablenin orijinal degrlerini korumak ister
-        // Varibale metodlar icinde kullanildigind ,Java metod`un icine orijinal degeri koymaz, o degerin kopyasini uretir ve metoda o kopyayi yollar,
+        // Varibale metodlar icinde kullanildiginda ,Java metod`un icine orijinal degeri koymaz, o degerin kopyasini uretir ve metoda o kopyayi yollar,
         // Metod kopya ustunde degisiklik yapar dolayisiyla veriablenin orijinal degeri korunmus olur
         // Bu sisteme "Pass By Value" denir
         // Java "Pass By Value" kullanir
-        // BAzi programlama dilleri orijinal degeri koruma altina almamistir.Java "Pass By Referance " kullanmaz
+        // Bazi programlama dilleri orijinal degeri koruma altina almamistir.Java "Pass By Referance " kullanmaz
         // Bu isi developer lara birakmistir.
         // Bu tarz diller "Pass By Referance " kullanir
 

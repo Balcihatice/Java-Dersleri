@@ -4,7 +4,7 @@ public class MemoryKullanimi {
     /*
     java da iki türlü memory var
 
-   1) büyük memory : heap (huge: çok büyük) non primitive dalar konur >>> String,oluşturulan classlar,
+   1) büyük memory : heap (huge: çok büyük) non primitive data`lar konur >>> String,oluşturulan classlar,
     'heap' içine konulan şeyin adresi bilinmeli String ve classlar oluşunca java hemen adres oluşturur
     ve bu adresi 'stack' e koyar
      java heap memory ye yerleştirilen her non primitive data için bir adres oluşturur ve bu adresi stack memory ye koyar

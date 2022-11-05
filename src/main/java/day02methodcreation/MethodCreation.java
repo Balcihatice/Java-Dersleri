@@ -5,7 +5,7 @@ public class MethodCreation {
         /*
       1)  public = acces modifier ,projenin heryerindn ulaşılabilir
       2)  static = Sonra konuşacağız
-      3)  void = Metodlar harekettir,iher hareket bir şey üretir
+      3)  void = Metodlar harekettir,her hareket bir şey üretir
       koşsam ter üretirim.yaptıgımız hareketin ne çıkardıgını buraya yazarız
       yaptıgımız hareket int ise buraya int yazarız
       bazı metodlar vardır hiç bir şey üretmezler.ör: ekrana hello yazdırmak=ortada yeni bir data yok var olanı görünür yapıyoruz
@@ -13,7 +13,7 @@ public class MethodCreation {
       Eger metod bir şey üretmiyorsa void yazılır
       >>>> void görünce bu metod yeni bir data üretmiyor diyeceğiz
 
-      4)  main = metodun ismi,özel bir metod java oluşturdu.müdahale edemeyic
+      4)  main = metodun ismi,özel bir metod java oluşturdu.müdahale edemeyiz
       5)  String[] =Sonra ögreneceğiz
       6) args =
       7)  {} =Metod body
@@ -53,6 +53,6 @@ public class MethodCreation {
 
     public static double ilkIkiyiToplaUcuncuIleCarp(double a, double b, double c) {
 
-        return a * b + c;
+        return (a + b) * c;
     }
 }
