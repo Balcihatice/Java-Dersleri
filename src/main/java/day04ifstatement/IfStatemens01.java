@@ -26,7 +26,7 @@ public class IfStatemens01 {
         // Example 3:
         int n = -134;
 
-        n = Math.abs(n);// matematik calasına git abs(mutlak deger) sini al,buldugun sonucu 'n' ye koy
+        n = Math.abs(n);// matematik classına git abs(mutlak deger) sini al,buldugun sonucu 'n' ye koy
 
         if (n >= 100 && n <= 999) ;
         System.out.println("uc basamakli");

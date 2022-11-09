@@ -19,7 +19,7 @@ public class Exceptions03 {
         int i = 0;
         double sonuc = 0;
         try {
-            lenght = str.length();//NullPointerException 'null" String ilee 'Lenght()" kullanildiginda aliir
+            lenght = str.length();//NullPointerException 'null" String ile 'Lenght()" kullanildiginda al ir
             i = Integer.valueOf(str);//NumberFormatException: icinde rakaamdan farkli karakter olan String`ler valueOf() ile kullanildiginda alinir
 
             sonuc = i / lenght;//AritmeticException: Bolen sayi sifir oldugunda aalinir.
@@ -67,6 +67,7 @@ public class Exceptions03 {
         int lenght = 0;
         int i = 0;
         double sonuc = 0;
+
         try {
             lenght = str.length();//NullPointerException 'null" String ilee 'Lenght()" kullanildiginda aliir
             i = Integer.valueOf(str);//NumberFormatException: icinde rakaamdan farkli karakter olan String`ler valueOf() ile kullanildiginda alinir
@@ -74,7 +75,9 @@ public class Exceptions03 {
             sonuc = i / lenght;//AritmeticException: Bolen sayi sifir oldugunda aalinir.
 
         } catch (NullPointerException e) {
+
             System.out.println("Null pointer`a ozel...");
+
         } catch (Exception e) {
 
             System.out.println("Diger tum Exceptionlar icin...");
@@ -83,8 +86,9 @@ public class Exceptions03 {
         return sonuc;
 
     }
-}/* Not1 : aralarinda parent-child relationship olan exception classlari multiple catch lerde
-    kullanmak istrsek child olan once kullanilmalidir. aksi halde hata verir.
+}
+/* Not1 : aralarinda parent-child relationship olan exception classlari multiple catch lerde
+    kullanmak istersek child olan once kullanilmalidir. aksi halde hata verir.
     aralarinda parent-child relationship "olmayan" exception classlari multiple catch lerde
-    kullanmak istrsek siralamanin bir onemi yoktur.
+    kullanmak istersek siralamanin bir onemi yoktur.
 */

@@ -17,6 +17,7 @@ public class Exception01 {
          e.printStackTrace(); methodu Exception ile ilgili detaylica teknik mesaj verir. kod calismaya devam eder
          System.err.println("burasi renkli"); hata mesajini renkli olarak verir bu sayede cansolda diger mesajlardan ayırmak icin kullaniriz
       9)Eger try body icindeki kod sorunusuz calisirsa catch blok devreye girmez
+
     Exception: Istisna
     Java matematik ile ilgili karsilasilmasi muhtemel tum hatalari '  ArithmeticException'
     Clasina koymustur. Matematikteki tum istisnalari detaylari bilmeme gerek yok.

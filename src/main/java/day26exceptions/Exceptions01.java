@@ -9,7 +9,7 @@ public class Exceptions01 {
         System.out.println(result + 5);//128
 
         String st = "1a2b";
-      int r = convertStringToInteger(st); //eger icinde ralamdan farkli karakter barindiran bir stringi valoOf()metodu kullanarak int`e cevirmek
+      int r = convertStringToInteger(st); //eger icinde rakamdan farkli karakter barindiran bir stringi valoOf()metodu kullanarak int`e cevirmek
         System.out.println(r+10);    // istersek NumberFormatException aliriz.
     }
 

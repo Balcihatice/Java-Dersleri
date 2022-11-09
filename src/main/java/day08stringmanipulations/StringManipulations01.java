@@ -11,6 +11,7 @@ public class StringManipulations01 {
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen isim giriniz");
         String isim = input.next();
+
 //1.yol Eger ilk harf char data type lazımsa charat() kullanalım.eger ilk harf String data typr lazımsa substring() kullanalım.
         char ilkHarf = isim.charAt(0);
         char sonHarf = isim.charAt(isim.length() - 1);// yazdıgınız kod sadece bazı durumlar ıçın calısırsa o koda "hard codıng "(kod degildir) denır
@@ -44,7 +45,7 @@ public class StringManipulations01 {
 
         String a = tamIsim.substring(0, 1); // A
 // C yi almak için indexini bilmemiz gerekir.Boşluktan kesersek bizim iki parçamız olur.ikinci kısmın indexi:1 olur
-        String b = tamIsim.split(" ")[1].substring(0, 1);// Boşluktan stringi kes.Kesince java bu parçaları indexler. 1.indexi al(Can).
+        String b = tamIsim.split(" ")[1].substring(0, 1);// Boşluktan stringi kes. Kesince java bu parçaları indexler. 1.indexi al(Can).
         //          boşluktan kes, sonraki indexi 1 olanı al, kelimeyi  0 dan bire kadar al
         //Bu 1. indexin substringin ilk indexi C dir
 

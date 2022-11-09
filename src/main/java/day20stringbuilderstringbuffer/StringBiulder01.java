@@ -1,6 +1,6 @@
 package day20stringbuilderstringbuffer;
 
-public class Stringbiulder01 {
+public class StringBiulder01 {
     /*1) StringBiulder java da bir Class`dir,
     2) StringBiulder ,String olusturmaya yarar,
     3) "String Class varken nicin StrinBiulder`a ihtiyac duyariz
@@ -11,9 +11,9 @@ public class Stringbiulder01 {
 4) Immutable Classlarda var olan deger degistirilemez,Szi var olan bir degeri dehistirmek istediginizde
 i) Memory`de yeni bir variable yeni degerle olusturulur
 ii)Sonra eski variable`in pointeri yeni variableye dondurulur
-iii) Eger bir variable`i hic bir pointer gostermiyorsa o variable o variable "Garbege Collector" tarafindan silinir
+iii) Eger bir variable`i hic bir pointer gostermiyorsa o variable "Garbege Collector" tarafindan silinir
 
-utable Classlarda var olan deger degistirilebilir, orijinal deger korunmaz.
+mutable Classlarda var olan deger degistirilebilir, orijinal deger korunmaz.
 5) String Class`larin Immutable yapisi "security" icin onemlidir,
 Ayni degeri sahip birden fazla String oldugunda Java bir tane konteyner olusturur ve ayni degere sahip Stringlerin bu konteyneri
 kullanmasini temin eder. Bu meoryi korumak icin iyidir ancak konteynirdaki degeri bir variable icin degistirdigimiz de
@@ -55,12 +55,14 @@ tum variablarin etkilenmesi tehlikesi vardir.Bu tehlikeden kurtulmak icin Java s
         strb3.append("Cat");
         strb3.append("xxxxxxxxxxxxxxx");
         int numOfChar = strb3.length();
-        System.out.println("numOfChar = " + numOfChar);// 3
+        System.out.println("numOfChar = " + numOfChar);// 18
         int capacity = strb3.capacity();
         System.out.println("capacity = " + capacity);//16+16+2.Memorydeki String kapasitesi
 //  ONEMLI ====>>>>>>>>>  Kapasite asimlarinda varolanin iki katinin iki fazlasi gelir.
 
-        strb3.append("mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm");
+        strb3.append("mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm");
+        int idx = strb3.length();
+        System.out.println(idx);
         int capacity2 = strb3.capacity();
         System.out.println(capacity2);//70
 

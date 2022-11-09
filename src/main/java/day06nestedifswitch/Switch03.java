@@ -8,9 +8,9 @@ public class Switch03 {
         Kullanıcıdan işlem ve iki tane sayi alarak işlemin sonıucnu
         ekrana yazdıran basit bir hesap mak. yapınız
          */
-// NOT:switch (içinde yani) te sadece  int ,byte,short,char,String data type kullanılabilir
+        // NOT:switch (içinde yani) te sadece  int ,byte,short,char,String data type kullanılabilir
         // NOT:switch (içinde yani) boolean ,double,float,long  kullanamayız.
-  // Eger üçten fazla durum varsa switch tercih eder süleyman hoca
+        // Eger üçten fazla durum varsa switch tercih ederiz.
 
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen İslemi giriniz : +,-,*,/,%,");
@@ -39,8 +39,8 @@ public class Switch03 {
                 System.out.println("Bu islem tanımlı degil...");
         }
          String name = "Rose";
-        String surName = "balci";
-        System.out.println(name.concat(surName));
+         String surName = "balci";
+         System.out.println(name.concat(surName));
 
 
     }

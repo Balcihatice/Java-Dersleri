@@ -7,7 +7,7 @@ public class StringManipulations01 {
 
       //       String Class Metodları:
         /*
-       1) equals() : i) iki tane string aynı mı degil mi anlamamıza yarar.
+       1) equals() : i) iki tane String aynı mı degil mi anlamamıza yarar.
                     ii) equals() metodu boolean return eder.
        2) equalsIgnoreCase() : i) iki stringin aynı olup olmadıgını buyuk kücük harfe bakmadan return eder
                               ii) equalsIgnoreCase() metodu boolean return eder.

@@ -3,7 +3,7 @@ package day15arraysmultidimensionalarrays;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Arrays01 {
+public class  Arrays01 {
     public static void main(String[] args) {
         // binarySearch() Methodu: Bu metodu kullanarak bir elemanin array de olup olmadigini anlariz
         //Stringlerdeki concans() metodu gibidir ama onun gibi true false return etmez

@@ -17,7 +17,7 @@ public class Car {
         3) = işareti
         4) new keywordunu kullan >>>> şu objeyi yoktan var et diyoruz
         5) class ismi parantezle beraber yaz >>>> Car(): cooker olmadan beyefendi kek yiyemez
-        bunu  ismi Constructor
+        bunun  ismi Constructor
         object oluşturmak için kalıp lazım java ya obje için kalıp: class ismini söyluyorum
         */
 

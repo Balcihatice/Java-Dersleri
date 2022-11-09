@@ -56,7 +56,7 @@ public class Switch01 {
                 break;
             default: //yukardaki durumlar dısı her durum
                 System.out.println("Gecerli gun giriniz");
-        }   // buraya berak yazamayız .java zaten default tan sonra bitirecek
+        }   // buraya berak yazamayız .java zaten "default" tan sonra bitirecek
     }
 
 }

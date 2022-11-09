@@ -1,6 +1,6 @@
 package day26exceptions;
 
-public class Exceptions02 {
+public class  Exceptions02 {
 
     public static void main(String[] args) {
         char ch1 = getCharFromString("Java", 2);

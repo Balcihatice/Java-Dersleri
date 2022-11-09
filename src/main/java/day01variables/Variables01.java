@@ -7,7 +7,7 @@ public class Variables01 {
     //1)Access Modifier   2)Data Type     3)Variable ismi     4) =       5)Deger    6);
 
     // Java'da ";" Ingilizce'deki "." gibidir
-    // Ingiliozce'de "cumle" deriz, Java'da "statement" deriz
+    // Ingilizce'de "cumle" deriz, Java'da "statement" deriz
 
     // "=" sembolu "Assignment(Atama) Operator" olarak adlandirilir
     // "Assignment(Atama) Operator" sagdaki degeri alir soldaki variable'in icine koyar
@@ -65,7 +65,7 @@ public class Variables01 {
              2) PRİMİTİVE DATA TİPLERİ JAVA TARAFINDAN OLUŞTURULMUŞTUR TOPLAM 8 TANEDİR
              Biz primitiv data oluşturamayız
 
-             Non primitivler java taraınfandan da oluşturulmuştur biz de oluşturabiliriz
+             Non primitivler java tarafinfandan da oluşturulmuştur biz de oluşturabiliriz
              non primitvler sayılamayacak kadar çoktur
              ör:class oluşturmak non primitive data oluşturmaktır.
 

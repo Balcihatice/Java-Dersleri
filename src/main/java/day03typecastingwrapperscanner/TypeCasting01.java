@@ -5,7 +5,7 @@ public class TypeCasting01 {
     // byte<short<int<long<float<double
 
     //   NOT: Küçük data tipinden büyük tada tipine çevirmeye "Auto Widening" denir
-    //  NOT: Büyük data tipinden küçük tada tipine çevirmeye "Explicit Norrowing" (aık seçik daraltma)denir
+    //  NOT: Büyük data tipinden küçük tada tipine çevirmeye "Explicit Norrowing" (acik seçik daraltma)denir
 
 
     public static void main(String[] args) {

@@ -8,11 +8,13 @@ public class Switch02 {
         Kullanıcıya ay ismi sorunuz ve kullanıcının
         verdiği ay isminden son aya kadar ekrana yazdırınız
          */
+
         Scanner input = new Scanner(System.in);
         System.out.println("Lutfen ay ismini giriniz");
         String ay = input.next().toLowerCase();//ay ismi kücük harf mart oldu
-//equalsIgnoreCase burda çalışmak çünkü eşitlik bakmıyoruz
-        switch(ay){ //switch içi sitring case lerde string
+
+        //equalsIgnoreCase burda çalışmak çünkü eşitlik bakmıyoruz
+        switch(ay){ //switch içi Sitring case lerde String
             case "ocak":
                 System.out.println("Ocak");
             case "subat":

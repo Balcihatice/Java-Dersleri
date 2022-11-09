@@ -41,7 +41,7 @@ public class IfStatement03 {
             System.out.println("Gecerli bir gun ismi giriniz");
         }
 
-        // 2. yol : Kodo kısa yazmak tercih edilir,>> buna atomik derler.standartlara uygun değil
+        // 2. yol : Kod`u kısa yazmak tercih edilir,>> buna atomik derler.standartlara uygun değil
        // parantez içi sade olmalıdır.
         if (gun.equalsIgnoreCase("Pazar") || gun.equalsIgnoreCase("Cumartesi")) {
             System.out.println("Hafta sonu...");

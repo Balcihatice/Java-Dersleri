@@ -11,7 +11,7 @@ public class NestedIf01 {
 
         Password ün ilk harfi kucuk harf ise 'z' olursa gecerli password
         aksi halde gecersiz password
-eksik senaruo var kullanıcı ilk harf değilde rakam girerse durumu
+        eksik senaruo var kullanıcı ilk harf değilde rakam girerse durumu
          */
         String pwd = "mxy12!";
 
@@ -36,7 +36,7 @@ eksik senaruo var kullanıcı ilk harf değilde rakam girerse durumu
             System.out.println("Ilk karakter harf olmalıdır...");
         }
 
-    } // java nested kodları çalıştırıken çok zaman harcaer
-    // buna "time complexity" denir
-    //mümkünse nested kod yazmamaya calışırız.
+    }  // java nested kodları çalıştırıken çok zaman harcaer
+       // buna "time complexity" denir
+      //mümkünse nested kod yazmamaya calışırız.
 }

@@ -11,7 +11,7 @@ public class MemoryKullanimi {
 
     ör: ormana hazine sakladık adresi çebimize koyduk. hazineyi almak için hemen cebimden adrese bakarım
 
-    Hey java bana tomu bul: java önce adresi bulmak için stack e gider ,sonra heap de adresi(Reference)  bulur
+    Hey java bana tom`u bul: java önce adresi bulmak için stack e gider ,sonra heap de adresi(Reference)  bulur
     ve içindeki bilgiyi bana verir
 
     Eger adres kırıldı ve yoksa , heap deki bilgi otomatik java (çöp toplayıcılar tarafından: garbege collector)tarafından silinir
