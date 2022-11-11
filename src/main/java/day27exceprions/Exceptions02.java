@@ -32,17 +32,18 @@ public class Exceptions02 {
 
       */
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
 
         readTheTextFromTheFile();
 
-       //2. Yol icin;
+        //2. Yol icin;
         readTheText();
     }
-//1. yol exceotion atinca diger kodlarin calismasi dursun dersek;
+
+    //1. yol exceotion atinca diger kodlarin calismasi dursun dersek;
     public static void readTheTextFromTheFile() throws IOException {  //eger adres yanlissa beni ara, dosyayi bulamazsan beni ara
 
-        //Stream nehir, akis demektir.Dosyalari alma Clasina gittik
+        //Stream nehir, akis demektir.Dosyalari alma Clasina gittik ve tek tek aldik,buna akis denir.
 
         FileInputStream fis = new FileInputStream("src/main/java/day27exceprions/File1.txt");
 
@@ -54,7 +55,7 @@ public class Exceptions02 {
         }
 
     }
-     //read file gider j yi alir aski degerini okur k nin icine koyar, -1 e esit mi bakar true ise 74 ekrana yazdirilir
+    //read file gider j yi alir aski degerini okur k nin icine koyar, -1 e esit mi bakar true ise 74 ekrana yazdirilir
 
     //2.yol Exception atinca kodlar calismaya devam etsin;(ikinci yol daha cok tercih edilir).
 
@@ -65,7 +66,7 @@ public class Exceptions02 {
             while ((k = fis.read()) != -1) {
                 System.out.print((char) k);
             }
-        }  catch (FileNotFoundException e) {
+        } catch (FileNotFoundException e) {
             System.out.println("Dosyanin adresi veya varligi ile ilgili problem var");
         } catch (IOException e) {
             System.out.println("Dosyada okunamayan bir karakter var");

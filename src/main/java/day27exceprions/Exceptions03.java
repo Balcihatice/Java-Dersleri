@@ -15,12 +15,10 @@ public class Exceptions03 {
 
     public static void main(String[] args) throws IllegalGradeException {
 
-        IllegalGradeException ige = new IllegalGradeException("abc");
-
-        printGrade(-60);
+        printGrade(60);
 
 
-        checkNameFormat("Ali");
+        checkNameFormat("ali");
 
     }
 
@@ -36,7 +34,7 @@ public class Exceptions03 {
       }
     }
 
-
+     //simdi CTE veren bir kod olusturalim
     //Verilen ismin ilk harfinin buyk harf olmamasi durumunda  exception atan method yaziniz.
     public static boolean checkNameFormat(String name){
 
@@ -45,7 +43,9 @@ public class Exceptions03 {
           return true;
       }else{
 
-          throw new IllegalNameException("Isimler buyuk harfle baslamalidir");
+          throw new IllegalNameException("Isimler buyuk harfle baslamalidir");//Burdaki mesaji yazabilmek icin
+          //IllegalNameExceptin constructor`ini parametreli yaptik ve super(message) diyerek
+          //Parent Clastaki mesaji cagirdik.
       }
     }
 }

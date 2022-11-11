@@ -1,6 +1,8 @@
 Java is easy.
 Java is Object-Oriented Programing Language.
 OOP has four principles;
+
+
 1) Inheritance
 2) Polymorphism
 3) Encapsulation
