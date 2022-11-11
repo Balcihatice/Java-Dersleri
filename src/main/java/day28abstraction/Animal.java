@@ -1,4 +1,4 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 
 public abstract class Animal {
 //Body`si olmayan methodlar abstruct method`dur.

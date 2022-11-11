@@ -1,4 +1,4 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

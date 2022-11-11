@@ -1,4 +1,4 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 
 public abstract class Mammal extends Animal{
 

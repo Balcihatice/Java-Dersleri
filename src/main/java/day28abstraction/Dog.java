@@ -1,4 +1,4 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 
 public class Dog extends Mammal {
 Dog dog = new Dog();

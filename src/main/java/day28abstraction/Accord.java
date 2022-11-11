@@ -1,10 +1,6 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 
-
-//Bir Clasi bir interface`in child`i yapmak icin "impliements" kullaniriz¬
-//Interface`ler icin "multiple Inheritance" mumkundur.
-
-public class Civic implements Engine, Ac, Hood {
+public class Accord implements Engine,Ac,Hood{
 
 
     @Override
@@ -14,15 +10,13 @@ public class Civic implements Engine, Ac, Hood {
 
     @Override
     public void gas() {
-        System.out.println("Uses gas");
+        System.out.println("Uses gas...");
     }
 
     @Override
     public void tsi() {
-        System.out.println("Uses tsi technology");
-
+        System.out.println("Uses tsi technolgy");
     }
-
 
     @Override
     public void digital() {
@@ -33,6 +27,7 @@ public class Civic implements Engine, Ac, Hood {
     public void climate() {
         System.out.println("Cilmate");
     }
+
 
     @Override
     public void steel() {

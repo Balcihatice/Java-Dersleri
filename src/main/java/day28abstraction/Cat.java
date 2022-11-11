@@ -1,4 +1,4 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 /*
 Bir method parent class`ta abstract method ise child class
 o methodu overrid edip kullanmak zorundadir

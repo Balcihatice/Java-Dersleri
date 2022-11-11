@@ -1,4 +1,4 @@
-package day21accessmodifiersinheritance.day28abstraction;
+package day28abstraction;
 
 public interface Engine {
     /* interface`lerdeki tum methodlar abstract olgugu icin  "interface"`lere "fully abstaction" denir
