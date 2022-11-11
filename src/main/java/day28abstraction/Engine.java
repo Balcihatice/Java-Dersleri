@@ -1,22 +1,24 @@
 package day28abstraction;
 
 public interface Engine {
-    /* interface`lerdeki tum methodlar abstract olgugu icin  "interface"`lere "fully abstaction" denir
-    "Abstract Classlar"da" abstact method ve "concrete method" bir arada kullanildigi icin "Abstract class" lara
-    "fully abstacrt" denmez
+    /*
+        1) Atomic olsun diye "parent"i parcaladim ama bir "Child Class" in birden fazla "parent" i oldu,
+        bu ise Java'da mumkun degildir. Cunku Java "multiple Inheritance" i desteklemez.
+        "multiple inheritance" class'larda mumkun degildir fakat Java "interface" isimli yeni bir yapi olusturdu
+        bu yapida "multiple inheritance" a musaade etti.
 
-    Atomic olsun diye "parent"i parcaladim ama bir "Child Class" in birden fazla "parent" i oldu,
-    bu ise Java'da mumkun degildir. Cunku Java "multiple Inheritance" i desteklemez.
+        2)Interface'lerdeki tum method'lar "abstract" oldugu icin "interface" lere "fully abstraction" denir.
+          "Abstract Class" larda abstract method ve "concrete method" bir arada kullanildigi icin
+          "Abstract Class" lara "fully abstraction" denmez.
+    */
 
-            "multiple inheritance" class'larda mumkun degildir fakat Java "interface" isimli yeni bir yapi olusturdu
-    bu yapida "multiple inheritance" a musaade etti.
+        //interface'lerdeki tum method'lar "abstract" olmak zorundadir.
 
-*/
+        //interface'lerde abstract method olustururken "abstract" keyword kullanmaya gerek yoktur.
+        //Cunku Java o method'un abstract oldugunu bilir.
 
-    // interface`lerdeki tum method`lar abstract olmak zorundadir.
-    // interface`lerde abstract method olustururken abstract keyword kullanmaya gerek yoktur,
-    //Cunku java o methodun abstract oldugunu bilir.
-    //interfacelerdeki methodlar otomatic olarak public`tir. Bu yuzden o methodlar icin public yazmaya gerek yoktur.
+    //interface'lerdeki tum method'lar Java tarafindan otomatik olarak "public" kabul edilir bu yuzden
+    //o method'lar icin "public" yazmaya gerek yoktur.
 
     void eco();
 
