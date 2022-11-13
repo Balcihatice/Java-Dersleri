@@ -19,7 +19,7 @@ public class PriorityQueue01 {
         myQueue.add("C");
         System.out.println(myQueue);  //[A, C, B, G, E]
 
-        // Havanin kendisine gore belirledigi oncelige gore siralama yapar
+        // Javanin kendisine gore belirledigi oncelige gore siralama yapar
 
     }
 }

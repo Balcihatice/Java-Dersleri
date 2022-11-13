@@ -10,7 +10,8 @@ public class Queue01 {
     //Queue da elemanlar "Insertion order"a gore dizilirler.
     //Queue da poll(),element(), remove(),peek() gibi bir cok method vardir.
   /*  Kapasite kısıtlamalarını ihlal etmeden hemen yapmak mümkünse, belirtilen öğeyi bu kuyruğa ekler.
-    Kapasite kısıtlamalı bir kuyruk kullanırken, bu yöntemin eklenmesi genellikle tercih edilir, bu yöntem yalnızca bir istisna atarak bir öğe eklemede başarısız olabilir.
+    Kapasite kısıtlamalı bir kuyruk kullanırken, bu yöntemin eklenmesi genellikle tercih edilir,
+    bu yöntem yalnızca bir istisna atarak bir öğe eklemede başarısız olabilir.
     Döndürür: öğe bu kuyruğa eklendiyse true, aksi takdirde false
     Atar:
     ClassCastException – belirtilen öğenin sınıfı, onun bu kuyruğa eklenmesini engelliyorsa
