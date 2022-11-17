@@ -9,6 +9,7 @@ public class Queue01 {
     // Ilk giren elemani ilk kullnmamiz(first in first out ==>> FIFO) gerektiginde queue en iyi secimdir.
     //Queue da elemanlar "Insertion order"a gore dizilirler.
     //Queue da poll(),element(), remove(),peek() gibi bir cok method vardir.
+    //offer() methodu kapasite kontrolu yapildiktan sonra eleman ekleme durumlarinda kullanilir,
   /*  Kapasite kısıtlamalarını ihlal etmeden hemen yapmak mümkünse, belirtilen öğeyi bu kuyruğa ekler.
     Kapasite kısıtlamalı bir kuyruk kullanırken, bu yöntemin eklenmesi genellikle tercih edilir,
     bu yöntem yalnızca bir istisna atarak bir öğe eklemede başarısız olabilir.
@@ -31,7 +32,7 @@ public class Queue01 {
         System.out.println(wareHouse);
 /*
 Inserts the specified element into this queue if it is possible to do so immediately without
-violating capacity restrictions. When using a capacity-restricted queue, this method is generally
+violating capacity restrictions(Kapasite uygunsa ekler). When using a capacity-restricted queue, this method is generally
 preferable to add, which can fail to insert an element only by throwing an exception.
 
 Returns:

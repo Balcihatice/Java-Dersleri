@@ -21,7 +21,7 @@ public class Deque01 {
         furnitureTruck.add("Dining Table");
 
         System.out.println(furnitureTruck);
-        /* Kapasite kısıtlamalarını ihlal etmeden hemen yapmak mümkünse, bu deque tarafından
+           /* Kapasite kısıtlamalarını ihlal etmeden hemen yapmak mümkünse, bu deque tarafından
         temsil edilen yığına (başka bir deyişle, bu deque'nin başında) bir öğeyi iter,
         şu anda boş alan yoksa bir IllegalStateException fırlatır.
 Bu yöntem, addFirst'e eşdeğerdir.
