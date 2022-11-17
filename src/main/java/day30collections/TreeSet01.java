@@ -13,7 +13,7 @@ public class TreeSet01 {
      * 4) TreeSet "null" object'ini eleman olarak kullanilamaz.
 
 NOT: Note: Tekrarsız elemanları natural order'da depolamak için TreeSet kullanmak mantıklıdır ama TreeSet'ler çoook yavaş çalıştığı için biz,
-              elemanları önce HashSet'e depolarız sonra HashSet'i TreeSet'e çevirerek TreeSet'in yavaş olma problemini aşmış oluruz.
+     elemanları önce HashSet'e depolarız sonra HashSet'i TreeSet'e çevirerek TreeSet'in yavaş olma problemini aşmış oluruz.
 
 
      * */
@@ -22,9 +22,9 @@ NOT: Note: Tekrarsız elemanları natural order'da depolamak için TreeSet kulla
 
         //Example 1: Sekiz tane inique String elemani alfabetik sirada depolayiniz.
 
-        TreeSet<String> emails = new TreeSet<>();
+        Long start1 = LocalTime.now().toNanoOfDay(); //gunun hangi nanosecond`inda basladigini gosterir
 
-        Long start1 = LocalTime.now().toNanoOfDay();
+        TreeSet<String> emails = new TreeSet<>();
 
         emails.add("a@gmail.com");
         emails.add("y@gmail.com");
@@ -37,7 +37,7 @@ NOT: Note: Tekrarsız elemanları natural order'da depolamak için TreeSet kulla
 
         System.out.println(emails);//[a@gmail.com, b@gmail.com, c@gmail.com, d@gmail.com, k@gmail.com, m@gmail.com, y@gmail.com, z@gmail.com]
 
-        Long end1 = LocalTime.now().toNanoOfDay();
+        Long end1 = LocalTime.now().toNanoOfDay();//gunun hangi nanosecond`inda bittigini gosterir
 
         System.out.println(end1 - start1); //ne kadar zaman da yaptigini bulduk
 
@@ -52,12 +52,12 @@ NOT: Note: Tekrarsız elemanları natural order'da depolamak için TreeSet kulla
         myEmail.add("z@gmail.com");
         myEmail.add("k@gmail.com");
         myEmail.add("d@gmail.com");
+        System.out.println(myEmail);
 
         TreeSet myEmalilsSorted = new TreeSet<>(myEmail); //alfabetik siralayacak
-
         Long end2 = LocalTime.now().toNanoOfDay();
 
-        System.out.println(end2 - start2);//HashSet daha hizli
+        System.out.println(end2 - end1);//HashSet daha hizli
 
 
 
