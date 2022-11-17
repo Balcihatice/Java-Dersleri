@@ -29,7 +29,9 @@ public class Iterators01 {
         ListIterator<String> itr = myList.listIterator();//objeyi yoktan var etmedik var  olan objeden elde ettik
 
         while(itr.hasNext()){
+
             String el = itr.next();
+
             itr.set(el+"!");
         }
         System.out.println(myList);//[z!, k!, a!, j!, m!]
