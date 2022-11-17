@@ -23,7 +23,7 @@ public class Runner {
         System.out.println(cat3.a);
 
         //Object olusturken objectin data type child Classlardan secilemez
-        // Inheritance de variableler secilirken Java Constructor`a bakar
+        // Inheritance de Method secilirken Java Constructor`a bakar
         //Oncelikle istediginiz metodu contructuri kullanilan Class`tan alir
         //O Classta bulamzsa Parent Class`lara bakar.Hic bir Parent Classta bulamazsa hata verir
 

@@ -5,12 +5,12 @@ import java.util.List;
 
 public class LinkedList01 {
     /*
-//ArrayList nasıl oluşturulur?
-//1.Yol
+   ArrayList nasıl oluşturulur?
+   1.Yol
     ArrayList<Integer> myList = new ArrayList<Integer>();
-//2.Yol
+   2.Yol
     List<Integer> myList = new ArrayList<Integer>();
-//3.Yol
+  3.Yol
      List<Integer> myList = new ArrayList<>();
 
    List`lere coklu ve tekrarli data depolamak istedigimizde ihtiyac duyariz.
@@ -20,16 +20,15 @@ public class LinkedList01 {
    or: Bir okuldaki ogrenci Id lerini depolamak icin kullaniriz
 
 
-   Queue(kuyruk- Sira) : FIFO (Fist in first out) ilk giren ilk cikar.Market deposu gibi ilk giren ilk cikmalidir.Yoksa tarihi gecer
-         bankadaki sirada fifo kullanilir
+   Queue(kuyruk- Sira) : FIFO (Fist in first out) ilk giren ilk cikar.Market deposu gibi ilk giren ilk cikmalidir.
+   Yoksa tarihi gecer bankadaki sirada fifo kullanilir
 
           LIFO  gerektiginde queue kullanilir.
 
 
+Java yeni bir yapi olusturmus ve adini LinkedList demis.
 
-Java yeni bir yapi olusturmus ve adini LinkedList demir.
-
-1)   LinkedList`deki her eleman iki bolumden olusur, (data ve pointer)
+ 1)  LinkedList`deki her eleman iki bolumden olusur, (data ve pointer)
  2)  Bu bolumlere "node" denir. "Node" List`lerdeki "eleman" demektir
  En son node`a "Tail" ( kuyruk) denir.Bu yapinin en son elemaninin pointer kismi, kendisinden sonra eleman olmadigi icin
  "null" gosterir.
@@ -76,7 +75,7 @@ cunku bir cok elemanin re-index edilmesi gerekir.
         System.out.println(visitors);//[Cuneyit Arkin, Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Birad Pitt, Tom Hanks, Ajda Pekkan]
 
         //NOT: LikedList elemen ekleme ve cikarma islemlerinde cok basarili oldugundan ekleme ve silme ile
-        // alakali cik fazla method icerir.
+        // alakali cok fazla method icerir.
 
         visitors.removeLast();
         System.out.println(visitors);//[Cuneyit Arkin, Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Birad Pitt, Tom Hanks]
@@ -105,7 +104,7 @@ cunku bir cok elemanin re-index edilmesi gerekir.
 
 
         LinkedList<String> myList = new LinkedList<>();
-        // myList.pop();//NoSuchElementException atti. Cunku LikedList bos
+       // myList.pop();//NoSuchElementException atti. Cunku LikedList bos
 
         
 

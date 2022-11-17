@@ -70,6 +70,7 @@ public class Exceptions02 {
             System.out.println("Dosyanin adresi veya varligi ile ilgili problem var");
         } catch (IOException e) {
             System.out.println("Dosyada okunamayan bir karakter var");
+
         }
     }
 }

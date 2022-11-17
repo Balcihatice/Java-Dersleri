@@ -16,13 +16,13 @@ public class LinkedList01 {
         /*
         Retrieves,(almak) but does not remove, first element of this list.
         Returns: ilk elemani verir ama silmez,
-        the head of this list, or "null" if this list is empty>> eger bos ise null verir,exception vermez
+        the first element of this list, or "null" if this list is empty>> eger bos ise null verir,exception vermez
          */
 
 
         String firstEl = names.peek();
-        System.out.println(firstEl);
-        System.out.println(names);
+        System.out.println(firstEl);//Chris
+        System.out.println(names);//[Chris, Ali, Veli, Tom]
 
         LinkedList<String> myList = new LinkedList<>();
 
@@ -40,6 +40,8 @@ public class LinkedList01 {
         System.out.println(firstelement);
 
         System.out.println(names);//ilk eleman silindi  [Ali, Veli, Tom]
+
+
        /*
        Retrieves, but does not remove, the head (first element) of this list.
        Returns:
@@ -69,7 +71,7 @@ public class LinkedList01 {
         }
         System.out.println(students); //[Chris, *****, Veli, Tom, Hans]
 
-//Example 2) Listdeki 4 farften cok harf iceren isimleri siliniz
+//Example 2) Listdeki 4 harften cok harf iceren isimleri siliniz
 
         // Interview sorusu
 

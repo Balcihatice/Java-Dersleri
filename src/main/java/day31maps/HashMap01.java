@@ -4,7 +4,7 @@ import java.util.*;
 
 public class HashMap01 {
 //metodun sol tarafina key, sag tarafina value denir.;Map ler key value kullanilir.
-//Map'ler key-value structure kullanir.
+
 //Key`ler unique`dir.
 //Map'lerde key kismi tekrarsiz data icerir.Null tekrarsiz olarak kullanilir,
 //Value kismi unique olmak zorunda degildir.tekrarli olabilir. Null bircok kere kullanilabilir.
