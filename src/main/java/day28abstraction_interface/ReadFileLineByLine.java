@@ -1,4 +1,4 @@
-package day28abstraction;
+package day28abstraction_interface;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

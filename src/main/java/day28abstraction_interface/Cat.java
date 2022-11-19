@@ -1,4 +1,4 @@
-package day28abstraction;
+package day28abstraction_interface;
 /*
 Bir method parent class`ta abstract method ise child class
 o methodu overrid edip kullanmak zorundadir

@@ -1,4 +1,4 @@
-package day29abstractioncollections;
+package day29abstractioncollections_interface;
 
 public class Runner {
 

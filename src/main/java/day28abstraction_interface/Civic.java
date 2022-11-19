@@ -1,6 +1,10 @@
-package day28abstraction;
+package day28abstraction_interface;
 
-public class Accord implements Engine,Ac,Hood{
+
+//Bir Clasi bir interface`in child`i yapmak icin "impliements" kullaniriz¬
+//Interface`ler icin "multiple Inheritance" mumkundur.
+
+public class Civic implements Engine, Ac, Hood {
 
 
     @Override
@@ -10,13 +14,15 @@ public class Accord implements Engine,Ac,Hood{
 
     @Override
     public void gas() {
-        System.out.println("Uses gas...");
+        System.out.println("Uses gas");
     }
 
     @Override
     public void tsi() {
-        System.out.println("Uses tsi technolgy");
+        System.out.println("Uses tsi technology");
+
     }
+
 
     @Override
     public void digital() {
@@ -27,7 +33,6 @@ public class Accord implements Engine,Ac,Hood{
     public void climate() {
         System.out.println("Cilmate");
     }
-
 
     @Override
     public void steel() {

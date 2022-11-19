@@ -1,4 +1,4 @@
-package day28abstraction;
+package day28abstraction_interface;
 
 public abstract class Animal {
 //Body`si olmayan methodlar abstruct method`dur.

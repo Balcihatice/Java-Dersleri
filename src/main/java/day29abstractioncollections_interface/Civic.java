@@ -1,4 +1,4 @@
-package day29abstractioncollections;
+package day29abstractioncollections_interface;
 /*
 Abstract methodlar sadece ne yapilacagini soyler(what to do)
 "Concrete" methodlar ne yapilacagi ile birlikte nasil yapilacagina da soyler(how to do)

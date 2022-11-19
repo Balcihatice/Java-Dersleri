@@ -1,4 +1,4 @@
-package day28abstraction;
+package day28abstraction_interface;
 
 public abstract class Mammal extends Animal{
 
