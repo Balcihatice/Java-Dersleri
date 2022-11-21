@@ -8,7 +8,7 @@ Abstract methodlar sadece ne yapilacagini soyler(what to do)
 interfacelerin icinde default ve static olarak conceret method olusturulabilir
 
 "Multiple parent interface kullandigimizda;ayni
-method ismi ile birden fazla method olusturursak bu methodlarin return typelari ayni olmalidir olamaz
+method ismi ile birden fazla method olusturursak bu methodlarin return typelari ayni olmalidir
 Aksi takdirde hata verir.
 
 Interface`lerde constructor yoktur.yani object olusturamayiz
