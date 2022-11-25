@@ -34,21 +34,21 @@ tum variablarin etkilenmesi tehlikesi vardir.Bu tehlikeden kurtulmak icin Java s
 
 //StringBiulder nasil olusturulur
         //   1.Yol:
-        StringBuilder strb1 = new StringBuilder("Java");
-        System.out.println(strb1); //Java Stringde olabilir biulder da olabilir koda bakmak lazim
+        StringBuilder strb = new StringBuilder("Java");
+        System.out.println(strb); //Java Stringde olabilir biulder da olabilir koda bakmak lazim
 
         // 2.Yol:
-        StringBuilder strb2 = new StringBuilder(); //bos StringBiulder olusturduk
+        StringBuilder strb1 = new StringBuilder(); //bos StringBiulder olusturduk
 
         //Yol a:  append ,Stringlerdeki concat() metodu giibidir
-        strb2.append("Java");
-        strb2.append(" is easy");
-        strb2.append(" ! ! !");
-        System.out.println(strb2);// Java is easy
+        strb1.append("Java");
+        strb1.append(" is easy");
+        strb1.append(" ! ! !");
+        System.out.println(strb1);// Java is easy
 
         //Yol b:
-        strb2.append(" Learn").append(" Java earn").append(" money.");
-        System.out.println(strb2); //Java is easy ! ! ! Learn Java earn money.
+        strb1.append(" Learn").append(" Java earn").append(" money.");
+        System.out.println(strb1); //Java is easy ! ! ! Learn Java earn money.
 
         //StringBiulder`larda karakter sayisi nasil bulunur
         StringBuilder strb3 = new StringBuilder();//Memoryde 16 kutu`lu kapasite olusur.

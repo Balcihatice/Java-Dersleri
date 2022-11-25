@@ -15,9 +15,5 @@ public class DateTime01 {
         System.out.println("dobAli = " + dobAli);
         System.out.println("dobVeli = " + dobVeli);
 
-
-
-
-
     }
 }
