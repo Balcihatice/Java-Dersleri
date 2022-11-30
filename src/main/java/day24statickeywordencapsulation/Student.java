@@ -18,22 +18,19 @@ public class Student {
     private boolean retired = false;
 
 
-
-
-
     public String getStdId() {
+
         return stdId;
     }
 
     public double getGpa() {
+
         return gpa;
     }
+
     public boolean isRetired() {
         return retired;
     }
-
-
-
 
     public void setStdId(String stdId) {
 

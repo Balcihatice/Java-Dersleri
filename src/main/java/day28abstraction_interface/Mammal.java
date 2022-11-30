@@ -6,4 +6,10 @@ public abstract class Mammal extends Animal{
     // i) Child Classi abstract yapmaliyiz
     // ii) parent Classdaki tum abstract methodlari override etmeliyiz
 
+    @Override
+
+        public void eat() {
+            System.out.println("Dogs eat");
+        }
+
 }

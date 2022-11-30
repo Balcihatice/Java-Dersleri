@@ -30,6 +30,7 @@ public interface Engine {
     //"default" keyword kullanarak interface`lerin icinde body`si olan methodlar uretebiliriz
     //Asagidaki non-static method`dur. 
     public default int add(int a, int b) {
+
         return a + b;
     }
 

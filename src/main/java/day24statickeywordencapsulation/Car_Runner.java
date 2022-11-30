@@ -8,6 +8,10 @@ static class elemanlari butun Object'lerin ortak elamanidir.
 static ler uzerinde yapilan her degisiklik butun objeleri etkiler tum objelerde gorunur.
 static Class elemanlarina Class uzerinden ulasilir.
 
+static block`lar ihtiyacimiz olan variable`larin class olusturma safhasinda elimizde olmasini saglar
+static block`lar main methoddan ve diger tum methodlardan once calistirilir.(herseyden once calisir)
+static blok`lar icinde sadece "static variable"`lara deger atanabilir.
+birden fazla static blok varsa ustteki once calistirilir.
  */
 
     public static void main(String[] args) {
