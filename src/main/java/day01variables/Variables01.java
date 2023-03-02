@@ -36,11 +36,11 @@ public class Variables01 {
                En buyuk long =  9,223,372,036,854,755,807
 
       5)float: Ondalikli sayilar icindir. 32 bit kullanir
-               "float" virgulden sonra 7 basamak icerebilir
+               "float" virgulden sonra 7 basamak icerir
                "float" degerlerinde sona "f" veya "F" koymaniz gerekir
 
       6)double: Ondalikli sayilar icindir. 64 bit kullanir.
-                "double" virgulden sonra 16 basamak icerebilir
+                "double" virgulden sonra 16 basamak icerir
 
       7)boolean: "true" veya "false" degerleri icin kullanilir. 1 bit kullanir.
 

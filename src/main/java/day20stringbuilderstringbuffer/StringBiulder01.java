@@ -120,8 +120,10 @@ tum variablarin etkilenmesi tehlikesi vardir.Bu tehlikeden kurtulmak icin Java s
         System.out.println("sonuc = " + sonuc);//sonuc = 0
         
         //CompareTo askii value`larla calistigi icin buyuk kucuk harfe duyarlidir.
-        
-        
-        
+
+
+        StringBuilder strb5 = new StringBuilder("gggggggrrrfffgggggggggfddsdssdfff");
+       // System.out.println(strb5);
+        System.out.println(strb5.capacity());
     }
 }

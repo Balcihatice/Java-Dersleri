@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public enum UsStates {
 
+    //Enum`lar sabit datalari icerir.
+
     ALABAMA("Alabama", "AL", "Montgomery"),
     ALASKA("Alaska", "AK", "Juneau"),
     AMERICAN_SAMOA("American Samoa", "AS", "Pago Pago"),
@@ -64,12 +66,12 @@ public enum UsStates {
 
 
     private final String stateName;
-    private final String abbrevation;
+    private final String abbreviation;
     private final String capital;
 
     UsStates(String stateName, String abbrevation, String capital) {
         this.stateName = stateName;
-        this.abbrevation = abbrevation;
+        this.abbreviation = abbrevation;
         this.capital = capital;
     }
 
@@ -78,7 +80,7 @@ public enum UsStates {
     }
 
     public String getAbbrevation() {
-        return abbrevation;
+        return abbreviation;
     }
 
     public String getCapital() {
@@ -111,6 +113,6 @@ public enum UsStates {
         return Arrays.
                 stream(values()).filter(t -> t.getCapital().equals(capital)).findFirst().get().getAbbrevation();
 
-
     }
+    
 }

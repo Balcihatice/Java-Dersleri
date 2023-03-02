@@ -15,28 +15,27 @@ public class Iterators01 {
         myList.add("j");
         myList.add("m");
 
-        //foreach loop kullanarak her elemanin sonuna ! isareti ekleyiniz
+        //for-each loop kullanarak her elemanin sonuna "!" ekleyiniz
+        //Note: loop'lar kendi baslarina "Collection" lari update edemezler bu yuzden Java "iterator" lari olusturdu.
+        //Iterator'lar Collection'lari update etmek icin kullanilir.
 
-
-        for (String w:myList ) {
-          w =  w+"!";
+        for (String w : myList) {
+            w = w + "!";
         }
+        System.out.println(myList);// [Z, K, A, J, M]
 
-        System.out.println(myList);
-       //loop`lar kendi baslarina "Collections"lari update edemiyorlar.Bu yuzden java iterator`leri olusturdu
-       //"Iterator" ler collections`lari update etmek icin kullanilir,"
+        ListIterator<String> itr = myList.listIterator();
 
-        ListIterator<String> itr = myList.listIterator();//objeyi yoktan var etmedik var  olan objeden elde ettik
-
-        while(itr.hasNext()){
-
+   /*  Biz liste eleman ekleyince java list`i` iterator`e ekler.En basina pointer konur,
+      next() methodu ustunden atlayarak pointeri bir one alir ve uzerinden atladigi elemani bize verir
+      While`in cond`i true ise islem devam eder ve tek tek elemanlar bize verilir
+      Iterator nextten gelen elemana set() ile "!" ekler.
+*/
+        while (itr.hasNext()) {
             String el = itr.next();
-
-            itr.set(el+"!");
+            itr.set(el + "!");
         }
-        System.out.println(myList);//[z!, k!, a!, j!, m!]
-
+        System.out.println(myList);// [Z!, K!, A!, J!, M!]
     }
-
 
 }
